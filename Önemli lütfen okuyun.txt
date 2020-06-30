@@ -1,0 +1,1 @@
+wampserverdan php version 5'i seçmeniz gerek.yoksa açýlmýyor.Örneðin güncel version (5.6.38)

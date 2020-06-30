@@ -1,0 +1,211 @@
+﻿/*
+	Bu stil dosyası Hasan ERYILMAZ Tarafından yazılmıştır...
+*/
+
+
+   /* Reset Başlangıç */
+   
+body {background: #d3d9e0; margin: auto; font-family: Arial ;}
+table, tr, td, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, textarea, select, button, p, img {padding: 0; margin: 0; border: 0}
+table {border-collapse: collapse}
+li {list-style: none}
+a {text-decoration: none}
+:focus {outline: 0}
+
+	/* Reset Bitiş */
+	
+	/*
+		Stil Başlangıç
+	*/
+	
+	
+	.tablo
+	{
+		margin-top:30px;
+		margin-left:5%;
+		margin-right:5%;
+		width:90%;
+		color:black;
+	}
+	.altmenu
+	{
+		margin-left:20px;
+		margin-top:5px;
+	}
+	.menu{
+		padding:20px;
+		 margin-top:10px;
+		width:200px;
+		background-color:#fff;
+		border:2px solid #d68;
+	}
+	.menu li,a
+	{
+			color:grey;
+		}
+		
+		.kullanici
+		{
+		color:grey;
+		font-size:12px;
+		font-family:vernada;
+		margin-right:10px;
+		}
+		
+		.kmenu:hover li
+		{
+			background-color:black;
+			color:#fff;
+		}
+		
+		.kmenu li ol 
+		{
+			text-align:left;
+			border:2px solid #e23;
+			font-size:20px;
+			font-family:arial;
+			display:none;
+			position:absolute;
+			background-color:black;
+			width:90px;
+			height:50px;
+		}
+		.kmenu:hover li ol
+		{
+			display:block;
+		}
+		.icerik
+		{
+		margin-left:10px; width:97.5%;padding:25px 0px 0px 0px; background-image:url(../resimler/ust.png);background-repeat:repeat-x;
+		}
+		.kmenu li ol a
+		{
+			color:#fff;
+			background-color:black;
+		}
+		.kmenu li ol a:hover
+		{
+			color:black;
+			background-color:#fff;
+		}
+		
+		.kmenu li ol li
+		{
+			color:#fff;
+			background-color:black;
+		}
+		.kmenu li ol li:hover
+		{
+			color:black;
+			background-color:#fff;
+		}
+		.kmenu li ol li:hover a
+		{
+			color:black;
+			background-color:#fff;
+		}
+		
+		.statu 
+		{
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+		.statu li 
+		{
+			vertical-align:top;
+			margin:0 0 1px;
+			padding:9px 5px 12px 55px;
+		}
+		.statu .hata 
+		{
+			background:#ffdede url(../resimler/genel.png) no-repeat 17px -712px;
+			color:#be0000;
+		}
+		.statu .uyari 
+		{
+			color:#dc6200;
+			background:#fff6de url(../resimler/genel.png) no-repeat 18px -975px;
+		}
+		.statu .basarili 
+		{
+			color:#3f5a04;
+			background:#dfedc0 url(../resimler/genel.png) no-repeat 15px -841px;
+		}
+		input,
+		textarea,
+		select 
+		{
+			font:100% arial,sans-serif;
+			border: 3px double #e28;
+			vertical-align:middle;
+			background-color:#fff;
+			color:#8a8;
+			width:500px;
+		}
+		form,fieldset
+		{
+			margin:0;
+			padding:0;
+			border:none;
+		}
+		input
+		{
+		height:25px;
+		padding-top:5px;
+		font-size:20px;
+		}
+		input:focus
+		{
+			background-color:black;
+			color:#fff;
+		}
+
+		textarea:focus
+		{
+			background-color:black;
+			color:#fff;
+		}
+		
+		select:focus
+		{
+			background-color:black;
+			color:#fff;
+		}
+		.menu .menuadi
+		{
+			margin-left:10px;
+			font-size:25px;
+		}
+		.kaydet
+		{
+			background-image:url(../resimler/kaydet.png);
+			background-repeat:no-repeat;
+			padding-left:20px;
+			height:20px;
+			font-size:10px;
+		}
+		.duzenle
+		{
+			background-image:url(../resimler/duzenle.png);
+			background-repeat:no-repeat;
+			padding-left:20px;
+			height:20px;
+			font-size:10px;
+		}
+		.yeni
+		{
+			background-image:url(../resimler/yeni.png);
+			background-repeat:no-repeat;
+			padding-left:20px;
+			height:20px;
+			font-size:10px;			
+		}
+		.sil
+		{
+			background-image:url(../resimler/sil.png);
+			background-repeat:no-repeat;
+			padding-left:20px;
+			height:20px;
+			font-size:10px;
+		}
